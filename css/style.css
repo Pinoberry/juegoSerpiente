@@ -1,19 +1,19 @@
-/* Estilos generales para el cuerpo de la página */
+
 body {
-  font-family: "Press Start 2P", cursive; /* Fuente pixelada para un toque retro */
-  /* Si no tienes esa fuente, puedes usar: font-family: 'Arial', sans-serif; */
+  font-family: "Press Start 2P", cursive;
+
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #2c3e50; /* Fondo oscuro */
-  color: #ecf0f1; /* Texto claro */
+  background-color: #2c3e50;
+  color: #ecf0f1;
 }
 
-/* Contenedor principal del juego */
+
 .contenedor-juego {
-  background-color: #34495e; /* Un tono más claro que el fondo del body */
+  background-color: #34495e; 
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -24,28 +24,27 @@ body {
 }
 
 h1 {
-  color: #f1c40f; /* Amarillo para el título */
+  color: #f1c40f; 
   margin-bottom: 20px;
   font-size: 2em;
 }
 
-/* Estilos para la puntuación */
+
 .puntuacion-display {
   font-size: 1.5em;
   margin-bottom: 15px;
-  color: #2ecc71; /* Verde para la puntuación */
+  color: #2ecc71; 
 }
 
-/* Estilos para el lienzo del juego */
 #lienzoJuego {
-  background-color: #1a252f; /* Fondo oscuro para el área de juego */
-  border: 5px solid #8e44ad; /* Borde morado alrededor del lienzo */
+  background-color: #1a252f; 
+  border: 5px solid #8e44ad; 
   border-radius: 5px;
-  display: block; /* Para centrarlo correctamente si es necesario */
+  display: block; 
   margin-bottom: 20px;
 }
 
-/* Estilos para los botones de control */
+
 .controles {
   display: flex;
   flex-direction: column;
@@ -60,7 +59,7 @@ h1 {
 }
 
 .control-btn {
-  background-color: #3498db; /* Azul para los botones de control */
+  background-color: #3498db; 
   color: white;
   border: none;
   padding: 15px 20px;
@@ -69,18 +68,18 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  min-width: 60px; /* Asegura un tamaño mínimo */
+  min-width: 60px; 
 }
 
 .control-btn:hover {
   background-color: #2980b9;
 }
 
-/* Estilos para el botón de iniciar/pausar */
+
 .boton-accion {
   padding: 12px 25px;
   font-size: 1.1em;
-  background-color: #e67e22; /* Naranja para el botón de acción */
+  background-color: #e67e22; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -93,7 +92,6 @@ h1 {
   background-color: #d35400;
 }
 
-/* Media Queries para pantallas más pequeñas */
 @media (max-width: 600px) {
   h1 {
     font-size: 1.5em;
